@@ -88,7 +88,7 @@ export const downloadProject = async (projectData, progressCallback = () => {}) 
   };
 
   const project = await downloadProjectFromBuffer(projectData, options);
-  if (project.type !== 'sb3' || project.type === 'pm' || type === 'electra' || type === 'dino' || type === 'snail') {
+  if (project.type !== 'sb3' || project.type === 'pm') {
     project.type = 'blob';
   }
   project.analysis = analysis;
