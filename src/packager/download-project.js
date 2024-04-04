@@ -76,7 +76,7 @@ export const downloadProject = async (projectData, progressCallback = () => {}) 
     },
 
     processJSON(type, projectData) {
-      if (type === 'sb3' || type === 'pm' || type === 'pmp' || type === 'electra' || type === 'dino' || type === 'snail') {
+      if (type === 'sb3' || type === 'pm' || type === 'pmp' || type === 'electra' || type === 'dino' || type === 'snail') { // DinosaurMod and Snail IDE Compat
         mutateScratch3InPlace(projectData);
         analysis = analyzeScratch3(projectData);
         return projectData;
