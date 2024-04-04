@@ -114,7 +114,7 @@
   };
   const handleDrop = ({detail: dataTransfer}) => {
     const name = dataTransfer.files[0].name;
-    if (name.endsWith('.sb') || name.endsWith('.sb2') || name.endsWith('.sb3') || name.endsWith('.pm') || name.endsWith('.pmp')) {
+    if (name.endsWith('.sb') || name.endsWith('.sb2') || name.endsWith('.sb3') || name.endsWith('.pm') || name.endsWith('.pmp') || name.endsWith('.electra') || name.endsWith('.dino') || name.endsWith('.snail')) {
       $type = 'file';
       setFiles(dataTransfer.files);
     }
@@ -226,7 +226,7 @@
 {/if}
 
 <DropArea on:drop={handleDrop}>
-  <Section accent="#4C97FF">
+  <Section accent="#2A293F">
     <h2>{$_('select.select')}</h2>
     <p>{$_('select.selectHelp')}</p>
 
@@ -246,7 +246,7 @@
           <input type="radio" name="project-type" bind:group={$type} value="file">
           {$_('select.file')}
         </label>
-        <input hidden={$type !== "file"} on:change={handleFileInputChange} bind:this={fileInputElement} type="file" accept=".sb,.sb2,.sb3, .pm, .pmp, .goobert">
+        <input hidden={$type !== "file"} on:change={handleFileInputChange} bind:this={fileInputElement} type="file" accept=".sb,.sb2,.sb3, .pm, .pmp, .electra, .dino, .snail, .goobert">
       </div>
       <div class="option">
         <label>
