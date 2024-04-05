@@ -46,7 +46,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`,
   ACCENT_COLOR: '#625E97',
-  SOURCE_CODE: 'https://github.com/PenguinMod/PenguinMod-Packager',
+  SOURCE_CODE: 'https://github.com/ElectraMod/packager',
   FEEDBACK_PRIMARY: {
     name: 'Discord',
     link: 'https://discord.gg/9TSAK7jEED'
@@ -56,5 +56,5 @@ limitations under the License.`,
     link: 'https://github.com/ElectraMod/packager/issues'
   },
   DONATE: 'https://penguinmod.com/donate',
-  PRIVACY_POLICY: 'https://turbowarp.org/privacy.html',
+  PRIVACY_POLICY: 'https://electramod.vercel.app/privacy.html',
 };
