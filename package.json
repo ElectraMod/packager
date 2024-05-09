@@ -37,6 +37,7 @@
     "@turbowarp/json": "^0.1.1",
     "@turbowarp/sbdl": "^3.0.0",
     "cross-fetch": "^4.0.0",
+    "discord": "^0.8.2",
     "discord-rpc": "^4.0.1",
     "jszip": "^3.7.1",
     "sha.js": "^2.4.11",
