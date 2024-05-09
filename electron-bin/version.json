@@ -1,5 +1,5 @@
 {
   "electronVersion": "22.3.27",
-  "discord": "^0.8.2",
-  "discord-rpc": "^4.0.1"
+  "discord": "0.8.2",
+  "discord-rpc": "4.0.1"
 }
